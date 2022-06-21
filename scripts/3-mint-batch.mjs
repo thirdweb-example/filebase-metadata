@@ -1,4 +1,5 @@
 // The purpose of this script is to batch mint NFTs using metadata you uploaded to filebase
+// We use the AWS-SDK to dynamically load all the files in our bucket, download their IPFS CID, and use them to mint NFTS with.
 // We use the contract address from script 1 to mint the NFT
 import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import dotenv from "dotenv";

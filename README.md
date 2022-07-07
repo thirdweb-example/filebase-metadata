@@ -16,7 +16,7 @@ By default, thirdweb uploads your metadata to various IPFS providers behind the 
 To create your own version of this template, you can use the following steps:
 
 ```bash
-npx thirdweb create --example filebase-metadata
+npx thirdweb create --template filebase-metadata
 ```
 
 ### Deploying NFT Collection
